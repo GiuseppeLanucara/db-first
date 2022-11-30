@@ -11,3 +11,4 @@ km - MEDIUMINT - NOTNULL
 consumi - TEXT - NULL
 carburante - TEXT - NOTNULL
 unità_vendute - INT - DEFAULT(0) - NULL
+quotazione - DECIMAL (10,2) - NOTNULL 
