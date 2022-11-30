@@ -1,0 +1,13 @@
+USED CARS DEALER
+
+id - INT PRIMARY_KEY(NOTNULL, UNIQUE) - AUTO_INCREMENT
+numero_telaio - VARCHAR (30) - UNIQUE -NOTNULL
+marchio - VARCHAR (20) - NOTNULL
+modello - VARCHAR (20) - NOTNULL
+anno - YEAR - NOTNULL
+cilindrata - VARCHAR (10) - NNOTNULL
+cavalli - VARCHAR (10) - NOTNULL
+km - MEDIUMINT - NOTNULL
+consumi - TEXT - NULL
+carburante - TEXT - NOTNULL
+unità_vendute - INT - DEFAULT(0) - NULL
