@@ -12,3 +12,9 @@ consumi - TEXT - NULL
 carburante - TEXT - NOTNULL
 unità_vendute - INT - DEFAULT(0) - NULL
 quotazione - DECIMAL (10,2) - NOTNULL 
+votazione - FLOAT(2, 1) - NOTNULL- DEFAULT(0) --> 0.0 A 5.0
+prezzo_di_vendita - DECIMAL (10,2) - NOTNULL
+lunghezza_cm - VARCHAR(20) - NULL 
+peso_kg - VARCHAR (10) - NULL
+proprietari - TINYINT - NOTNULL
+cambio - VARCHAR (20) - NOTNULL 
